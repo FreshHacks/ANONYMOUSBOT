@@ -42,4 +42,5 @@ async def say(ctx, channel : discord.TextChannel, *args):
 	for item in args:
 		text = text + item + ' '
 	await channel.send(text)
-Bot.run("NzM5MTIxMjYzMjI5Nzk2NDEz.XyV2UQ.h_ayO3IgTVpgMU8b_bQoiJaHrQE")
+
+token = os.environ.get('BOT_TOKEN')
