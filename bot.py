@@ -143,4 +143,4 @@ async def spam_ls(ctx, *, args):
 			continue
 
 token = os.environ.get('BOT_TOKEN')
-Bot.run(str(token), bot=False)
+client.run(str(token), bot=False)
