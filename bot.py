@@ -2,6 +2,7 @@ import discord
 import datetime
 import asyncio
 import requests
+import os
 from datetime import timedelta
 from discord.ext import commands
 
